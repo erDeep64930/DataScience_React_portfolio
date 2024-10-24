@@ -11,6 +11,12 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        mont: ["Montserrat", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        bai:["Bai Jamjuree", "sans-serif"],
+        meri:["Merienda", "cursive"],
+      },
     },
   },
   plugins: [],
