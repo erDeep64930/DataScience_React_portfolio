@@ -44,6 +44,28 @@ const PersonalInfo = () => {
                 </div>
             </div>
 
+            {/* Driving Licence */}
+
+            <div className="mb-2">
+                <div class="flex items-center font-semibold leading-4  hover:text-blue-700 transition px-5 py-2">
+
+                    <span className="text-[#1d1d1d]"> Driving License</span>
+                    <span className="text-[#1d1d1d] ml-1">:</span>
+                    <span className="font-normal ml-auto text-gray-500">JH12-2020-000-2428</span>
+                </div>
+            </div>
+
+ {/* Blood Group */}
+ <div className="mb-2">
+                <div class="flex items-center font-semibold leading-4  hover:text-blue-700 transition px-5 py-2">
+
+                    <span className="text-[#1d1d1d]">Blood Group</span>
+                    <span className="text-[#1d1d1d] ml-2">:</span>
+                    <span className="font-normal ml-auto text-gray-700 ">B(+ve)</span>
+                </div>
+            </div>
+            
+
         </div>
     );
 }

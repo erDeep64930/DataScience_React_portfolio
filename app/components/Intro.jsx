@@ -26,7 +26,12 @@ const Intro = () => {
       </div>
 
     {/* this is for education */}
-    <div>1</div>
+    <div className="border border-red-500 p-5 flex flex-col space-y-10 rounded transform hover:scale-105 duration-300">
+
+    <h1 className="mx-20 sm:mx-5 text-center -mt-11 bg-white border-red-500 border text-2xl rounded text-red-500 font-meri py-2 ">
+      Education Profile
+              </h1>
+    </div>
     </div>
     </div>
    

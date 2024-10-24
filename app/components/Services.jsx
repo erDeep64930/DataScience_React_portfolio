@@ -26,11 +26,11 @@ const Services = () => {
             />
             {/* subtitle */}
             <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-              <span className="text-gradient">UX/UI Design</span>
+              <span className="text-gradient">Frontend Design</span>
             </div>
             {/* title */}
             <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-              <span className="text-3xl text-white">Project Title</span>
+              <span className="text-3xl text-white">Web Development</span>
             </div>
           </div>
         </div>

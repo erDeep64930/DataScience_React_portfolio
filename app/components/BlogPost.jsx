@@ -1,6 +1,7 @@
 import React from 'react';
 import Loading1 from '../sub-components/Loading1';
 import ContentLoading from '../sub-components/ContentLoading';
+import Subscribe from '../sub-components/Subscribe';
 
 const BlogPost = () => {
     return (
@@ -18,7 +19,11 @@ const BlogPost = () => {
                         <ContentLoading />
                         <ContentLoading />
                         <ContentLoading />
+                        <div></div>
+                        <div className="text-center mt-6"><Subscribe /></div>
+                        <div></div>
                     </div>
+                                    
                 </div>
             </div>
         </div>

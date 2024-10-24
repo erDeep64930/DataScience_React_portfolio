@@ -8,12 +8,14 @@ import Projects from "./components/Projects";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Testimonial from "./components/Testimonial";
+import SocialLink from "./sub-components/SocialLink";
 
 
 export default function Home() {
   return (
    <div className="overflow-x-hidden relative w-full">
     <Navbar />
+    <SocialLink />
     <Intro />
     <Skills />
     <Services />
@@ -23,6 +25,7 @@ export default function Home() {
     <Projects />
     <Contact />
     <AnimatedSignature />
+
    </div>
   );
 }

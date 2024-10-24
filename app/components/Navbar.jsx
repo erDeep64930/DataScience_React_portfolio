@@ -5,12 +5,12 @@ import Image from 'next/image';
 import dpk from "../../public/dpk.JPG"
 const Navbar = () => {
   return (
-    <div className="relative w-[1080px] mx-auto flex items-center justify-between mt-4 mb-8 font-meri">
+    <div className="relative w-[1080px] mx-auto flex items-center justify-between mt-4 mb-8 ">
       <div >
         <ul className='flex gap-6'>
           {navMenu1.map((menu, index) => {
             return (
-              <li key={index} className='text-3xl p-4 '>{menu.name}</li>
+              <li key={index} className='text-3xl p-4 font-alkatra cursor-pointer'>{menu.name}</li>
             )
           })}
         </ul>
@@ -23,7 +23,7 @@ const Navbar = () => {
         <ul className='flex gap-6'>
           {navMenu2.map((menu, index) => {
             return (
-              <li key={index} className='text-3xl p-4'>{menu.name}</li>
+              <li key={index} className='text-3xl p-4 font-alkatra cursor-pointer'>{menu.name}</li>
             )
           })}
         </ul>

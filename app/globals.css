@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Merienda:wght@400;500&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Great+Vibes&family=Tilt+Prism&display=swap");
+
+
 
 
 @tailwind base;
@@ -44,6 +47,21 @@ html, body{
   scrollbar-color: #0f1015 rgba(255, 255, 255, 0.1);
 }
 
+
+@layer components {
+  .cardAnimation{
+    @apply relative w-[350px] h-[190px] bg-transparent transition-all duration-300 hover:h-[450px]
+  }
+  .cardLineAnimation{
+    @apply absolute inset-0 overflow-hidden
+  }
+  .cardLineAnimation::before{
+    @apply content-[''] absolute top-[50%] left-[50%] w-[600px] h-[120px] bg-gradient-to-r from-transparent via-red-500 to-transparent translate-x-[-50%] translate-y-[-50%] animate-roll
+  }
+  .cardLineAnimation::after{
+    @apply content-[''] absolute inset-2 bg-black
+  }
+}
 #signature{
   stroke-dasharray: 2371;
   stroke-dashoffset: 2371;
@@ -56,6 +74,11 @@ html, body{
   }
 }
 
+
+@keyframes rotating {
+  0% { transform:scale(0.92) rotate(0deg); }
+  100% { transform:scale(0.92) rotate(360deg); }
+}
 
 
 .text-gradient {
