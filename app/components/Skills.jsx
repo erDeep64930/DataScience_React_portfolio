@@ -8,9 +8,9 @@ const Skills = () => {
   return (
     <div>
       skill
-<Animated />
+{/* <Animated /> */}
 <Card1 />
-<AnimatedCard />
+{/* <AnimatedCard /> */}
     </div>
   );
 }
