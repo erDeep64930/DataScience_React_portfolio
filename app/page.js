@@ -22,15 +22,22 @@ export default function Home() {
    <LeftSocialLinks />
    
     <Intro />
-    <Test />
     <Skills />
-    <Features />
+  
     <Services />
-    <LetsTalk />
+   
     <Testimonial />
+    <Contact />
+    <Test />
+   
+    <Features />
+    
+  
+    <LetsTalk />
+   
     <BlogPost />
     <Projects />
-    <Contact />
+   
     <AnimatedSignature />
 
    </div>

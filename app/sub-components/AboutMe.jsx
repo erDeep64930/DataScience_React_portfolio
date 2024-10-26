@@ -32,7 +32,7 @@ export const AboutMe = () => {
               <dd className="text-gray-500 text-sm">{person.title}</dd>
               <dt className="sr-only">Role</dt>
               <dd className="mt-3">
-                <span className="px-2 py-1 text-red-500 text-xs font-medium bg-black/10 rounded-full">
+                <span className="px-3 py-1 text-red-500 text-xs font-medium bg-green-300  rounded-full">
                   {person.role}
                 </span>
               </dd>

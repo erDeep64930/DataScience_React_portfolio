@@ -1,4 +1,4 @@
-import { infoMenu } from '@/constant/constant';
+import { infoMenu } from '@/public/constant';
 import React from 'react';
 
 const PersonalInfo = () => {

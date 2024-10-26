@@ -1,6 +1,6 @@
 import React from 'react';
-import { navMenu1 } from '@/constant/constant';
-import { navMenu2 } from '@/constant/constant';
+import { navMenu1 } from '@/public/constant';
+import { navMenu2 } from '@/public/constant';
 import Image from 'next/image';
 import dpk from "../../public/dpk.JPG"
 const Navbar = () => {

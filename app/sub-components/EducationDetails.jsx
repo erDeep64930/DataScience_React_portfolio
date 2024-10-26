@@ -1,5 +1,5 @@
 import React from 'react';
-import { eduInfo } from '@/constant/constant';
+import { eduInfo } from '@/public/constant';
 import { FaAward } from 'react-icons/fa';
 const EducationDetails = () => {
 
