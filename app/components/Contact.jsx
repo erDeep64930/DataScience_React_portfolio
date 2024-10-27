@@ -11,7 +11,7 @@ const Contact = () => {
 
      <div className=" lg:py-32">
         <div className="w-full lg:w-11/12 xl:w-9/12 mx-auto" >
-            <div className="shadow-lg lg:rounded-xl py-12 px-12 relative bg-cover bg-center z-50 " >
+            <div className="shadow-lg lg:rounded-xl py-12 px-12 relative bg-cover bg-center z-50 " style={{ backgroundImage: 'url(ds1.jpg)' }}>
                 <div className="bg-black/70 absolute inset-0 h-full lg:rounded-xl -z-10" ></div>
                 <div className="flex  flex-col-reverse gap-5 lg:flex-row items-end  lg:gap-0">
                     <div className="w-full lg:w-1/2 text-gray-100">
@@ -36,7 +36,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2">
-                        <div className="bg-white dark:bg-gray-800 max-w-lg rounded-md shadow p-6 mx-auto lg:ml-auto space-y-6 text-gray-600 dark:text-gray-100">
+                        <div className="bg-black/40 bg-blur-md  max-w-lg rounded-md shadow p-6 mx-auto lg:ml-auto space-y-6 text-gray-600 dark:text-gray-100">
                             <div>
                                 <p className="text-4xl font-bold font-mont mb-4">Get In Touch</p>
                                 <p className="">Need help or have some feedback for us?</p>

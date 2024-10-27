@@ -10,7 +10,7 @@ const Features = () => {
         >
           {/* <!-- Horizontal Line --> */}
           <div
-            class="hidden absolute top-24 w-10/12 left-16 h-3 bg-cyan-400 md:block"
+            class="hidden absolute top-64 w-10/12 left-16 h-3 bg-cyan-400 md:block"
           ></div>
           {/* <!-- Vertical Line --> */}
           <div class="absolute w-2 left-1/2 h-full -ml-1 bg-cyan md:hidden"></div>
@@ -29,13 +29,12 @@ const Features = () => {
               </div>
             </div>
             <h5
-              class="pt-6 text-xl font-bold text-center capitalize md:text-left"
+              class="pt-6 text-xl font-bold text-center capitalize md:text-left text-black"
             >
-              Brand Recognition
+              Enhancing decisions with AI.
             </h5>
             <p class="text-center text-gray-400 md:text-left">
-              Boost your brand recognition with each click. Generic links don't
-              mean a thing. Branded links help instil confidence in your content.
+            AI enhances decision-making by analyzing vast amounts of data quickly and accurately. It identifies patterns, predicts outcomes, and provides insights that humans may overlook. By integrating AI tools into the decision-making process, organizations can make more informed choices, reduce risks, and improve efficiency. Ultimately, AI empowers decision-makers to leverage data-driven insights for better outcomes in various fields.
             </p>
           </div>
 
@@ -53,13 +52,12 @@ const Features = () => {
               </div>
             </div>
             <h5
-              class="pt-6 text-xl font-bold text-center capitalize md:text-left"
+              class="pt-6 text-xl font-bold text-center capitalize md:text-left text-black"
             >
-              Detailed records
+             Advance data analysis
             </h5>
             <p class="text-center text-gray-400 md:text-left">
-              Gain insights into who is clicking your links. Knowing when and
-              where people engage with your content helps inform better decisions.
+            Advanced data analysis employs techniques like statistical analysis, machine learning, and data mining to extract deeper insights. Predictive analytics forecasts future trends, while natural language processing analyzes text data for sentiment and patterns. Visualization tools present complex data clearly, aiding decision-making. By leveraging big data technologies, organizations can efficiently process vast amounts of information, leading to more informed and strategic choices.
             </p>
           </div>
 
@@ -77,13 +75,12 @@ const Features = () => {
               </div>
             </div>
             <h5
-              class="pt-6 text-xl font-bold text-center capitalize md:text-left"
+              class="pt-6 text-xl font-bold text-center capitalize md:text-left text-black"
             >
-              Fully customizable
+              Innovation and Creativity
             </h5>
             <p class="text-center text-gray-400 md:text-left">
-              Improve brand awareness and content discoverability through
-              customizable links, supercharging audience engagement.
+            Innovation and creativity are essential for progress, driving new ideas and solutions. Creativity fosters unique concepts and enhances problem-solving, while collaboration among diverse teams boosts innovation. Embracing calculated risks allows for experimentation, leading to breakthroughs. Together, they promote continuous improvement, enabling organizations to adapt and thrive in a dynamic environment. Nurturing both can lead to significant advancements and competitive advantage.
             </p>
           </div>
         </div>
