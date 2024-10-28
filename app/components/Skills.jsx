@@ -1,6 +1,7 @@
 import React from 'react';
 import RotatedAppSkill from './RotatedAppSkill';
 import Heading from './Heading';
+import Image from 'next/image';
 
 
 
@@ -28,6 +29,7 @@ const Skills = () => {
             <p class="font-mont text-[16px] sm:text-[20px] font-[400] mt-[24px]">
             Web development involves creating and maintaining websites, combining front-end design and back-end functionality to deliver engaging, user-friendly online experiences across various devices and platforms.
             </p>
+            <Image src="/mernstack.png" alt="" width={180} height={70} />
           </div>
         </div>
     </div>

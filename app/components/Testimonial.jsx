@@ -1,11 +1,27 @@
+"use client"
 import Image from 'next/image';
-import React from 'react';
+import React,{useState} from 'react';
 
 import { FaArrowLeft , FaArrowRight, FaQuoteLeft } from "react-icons/fa";
 import testi from "../../public/testimonials/testimonial-2.jpg";
 import Heading from './Heading';
+import { testimonials } from '@/constant/constant';
 // import bg_ from "../..public/sm.jpg"
 const Testimonial = () => {
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const handleNext = () => {
+      setCurrentIndex((prevIndex) => 
+        (prevIndex + 1) % testimonials.length
+      );
+    };
+  
+    const handlePrev = () => {
+      setCurrentIndex((prevIndex) => 
+        (prevIndex - 1 + testimonials.length) % testimonials.length
+      );
+    };
   return (
     <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4 mt-14">
         <Heading heading="Words.."/>
@@ -35,21 +51,21 @@ const Testimonial = () => {
                         <button className="flex items-center justify-center h-10 w-10 bg-red-500 text-white shadow-md hover:shadow-xl rounded-full p-2">
                             <span className=" align-center text-2xl text-gray-60 hover:scale-75 transition-all duration-200">
 
-                             <FaArrowLeft />
+                             <FaArrowLeft onClick={handlePrev}/>
                             </span>
                         </button>
                         <button className="flex items-center justify-center h-10 w-10 bg-red-500 text-white shadow-md hover:shadow-xl rounded-full p-2">
-                            <span className=" align-center text-2xl text-gray-60 hover:scale-75 transition-all duration-200"> <FaArrowRight /></span>
+                            <span className=" align-center text-2xl text-gray-60 hover:scale-75 transition-all duration-200"> <FaArrowRight onClick={handleNext}/></span>
                         </button>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 text-gray-600 dark:text-gray-100">
                     <p className="text-xl font-bold capitalize mb-3">help us improve our productivity.</p>
                     <p className="mb-6">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    {testimonials[currentIndex].text}"
                     </p>
                     <div>
-                        <p className="font-bold text-lg">Riya Sen</p>
+                        <p className="font-bold text-lg"> {testimonials[currentIndex].name}</p>
                         <p>Lead Marketing Manager</p>
                     </div>
                 </div>
