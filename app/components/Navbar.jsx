@@ -1,12 +1,12 @@
 import React from 'react';
-import { navMenu1 } from '@/public/constant';
-import { navMenu2 } from '@/public/constant';
+import { navMenu1 } from '@/constant/constant';
+import { navMenu2 } from '@/constant/constant';
 import Image from 'next/image';
 import dpk from "../../public/dpk.JPG"
 const Navbar = () => {
   return (
-    <div className="relative w-[1080px] mx-auto flex items-center justify-between mt-4 mb-8 ">
-      <div >
+    <div className=" relative w-[1080px] mx-auto flex items-center justify-between mt-4 mb-8  ">
+      <div className=''>
         <ul className='flex gap-6'>
           {navMenu1.map((menu, index) => {
             return (

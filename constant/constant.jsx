@@ -238,8 +238,8 @@ export const apps = [
   },
   {
       id: "4",
-      title: "Photoshop",
-      icon: "/photoshop.png",
+      title: "Express.js",
+      icon: "/Express.png",
       width: 34,
       height: 34,
      

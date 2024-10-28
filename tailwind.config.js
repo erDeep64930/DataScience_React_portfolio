@@ -11,6 +11,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      boxShadow: {
+        CardShadow: ["0 5px 10px rgba(0,0,0,0.3)"],
+      },
       fontFamily: {
         mont: ["Montserrat", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],

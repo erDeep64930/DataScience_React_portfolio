@@ -3,12 +3,15 @@ import React from 'react';
 
 import { FaArrowLeft , FaArrowRight, FaQuoteLeft } from "react-icons/fa";
 import testi from "../../public/testimonials/testimonial-2.jpg";
+import Heading from './Heading';
 // import bg_ from "../..public/sm.jpg"
 const Testimonial = () => {
   return (
-    <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+    <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4 mt-14">
+        <Heading heading="Words.."/>
 
 <div class="  py-36 relative z-10">
+
         <div className="-z-10  dark:border dark:border-red-700 dark:shadow-md w-8/12 absolute bottom-0 right-0 top-16 rounded-tl-3xl rounded-br-3xl"  ></div>
         <div className="w-8/12 lg:w-10/12 xl:w-8/12 mx-auto">
             <div className="mb-10 md:mb-20">

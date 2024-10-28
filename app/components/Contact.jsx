@@ -1,5 +1,6 @@
 import React from 'react';
 import {FcAdvance} from "react-icons/fc";
+import Heading from './Heading';
 
 
 
@@ -9,8 +10,9 @@ const Contact = () => {
     <div>
      
 
-     <div className=" lg:py-32">
-        <div className="w-full lg:w-11/12 xl:w-9/12 mx-auto" >
+     <div className=" lg:py-32 ">
+        <Heading heading="Let's Talk"/>
+        <div className="w-full lg:w-11/12 xl:w-9/12 mx-auto mt-10 shadow-md shadow-red-300" >
             <div className="shadow-lg lg:rounded-xl py-12 px-12 relative bg-cover bg-center z-50 " style={{ backgroundImage: 'url(ds1.jpg)' }}>
                 <div className="bg-black/70 absolute inset-0 h-full lg:rounded-xl -z-10" ></div>
                 <div className="flex  flex-col-reverse gap-5 lg:flex-row items-end  lg:gap-0">
@@ -25,7 +27,7 @@ const Contact = () => {
                                     <p className="text-sm">Amerpet, South Telangana</p>
                                 </div>
                                 <div className="border-r border-white pr-4">
-                                    <p className="font-bold text-2xl font-libre">Jharkhand</p>
+                                    <p className="font-bold text-2xl font-meri">Jharkhand</p>
                                     <p className="text-sm">Domchanch, Koderma</p>
                                 </div>
                                 <div>

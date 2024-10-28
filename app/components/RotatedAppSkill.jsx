@@ -1,13 +1,13 @@
-import { apps } from '@/public/constant';
+import { apps } from '@/constant/constant';
 import Image from 'next/image';
 import React from 'react';
 
 const RotatedAppSkill = () => {
     return (
-        <div className="py-32 relative w-11/12 max-w-[1080px] mx-auto mt-24">
+  
             <div className="relative left-1/2 flex w-[22.5rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale-75 md:scale-100">
                 <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
-                    <div className="w-[5.75rem] aspect-square m-auto p-[0.1875rem] bg-conic-gradient rounded-full">
+                    <div className="w-[5.75rem] aspect-square m-auto p-[0.1875rem]  rounded-full">
                         <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
                             <p className='text-gradient'>My Skills</p>
                         </div>
@@ -24,7 +24,7 @@ const RotatedAppSkill = () => {
                             key={app.id}
                         >
                             <div
-                                className={`relative -top-[1.625rem] flex w-[3.25rem] h-[3.25rem] bg-n-7 border border-n-1/15 rounded-xl ${index === 1 && "-rotate-[45deg]"
+                                className={`relative -top-[1.625rem] flex w-[3.25rem] h-[3.25rem] bg-n-7 border border-n-1/15 rounded-xl shadow-md shadow-red-400 hover:scale-105 transition-all duration-300 ${index === 1 && "-rotate-[45deg]"
                                     } ${index === 2 && "-rotate-[90deg]"
                                     } ${index === 3 &&
                                     "-rotate-[135deg]"
@@ -39,7 +39,7 @@ const RotatedAppSkill = () => {
                                     }`}
                             >
                                 <Image
-                                    className="m-auto"
+                                    className="m-auto "
                                     src={app.icon}
                                     width={app.width}
                                     height={app.height}
@@ -52,7 +52,7 @@ const RotatedAppSkill = () => {
                 </ul>
 
             </div>
-        </div>
+      
     );
 }
 

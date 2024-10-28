@@ -1,13 +1,16 @@
 import React from 'react';
 import RotatedAppSkill from './RotatedAppSkill';
+import Heading from './Heading';
 
 
 
 const Skills = () => {
   return (
-    <div>
-           <div class="flex container max-w-[1200px] mx-auto 
-    items-center py-14 md:py-36 flex-col md:flex-row px-7 md:px-0">
+    <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4 mt-16">
+       <Heading heading="My Skill"/>
+           <div class="flex
+    items-center py-6 md:py-12 flex-col md:flex-row px-7 md:px-0">
+     
     {/* <!--left section --> */}
         <div class="md:w-[50%]">
          <RotatedAppSkill />
@@ -18,8 +21,8 @@ const Skills = () => {
           <div class="w-[95%] xl:w-[60%] mx-auto">
             <h1
               class="font-[700] text-[20px] sm:text-[28px]
-               md:text-[48px] font-['ggSans'] leading-[24px]
-                md:leading-[57.6px] mt-5 md:mt-0">
+               md:text-[48px] font-mont leading-[24px]
+                md:leading-[40px] md:mt-0">
               My Web Development journey with these Tech stack:~
             </h1>
             <p class="font-mont text-[16px] sm:text-[20px] font-[400] mt-[24px]">

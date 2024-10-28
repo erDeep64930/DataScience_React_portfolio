@@ -1,13 +1,14 @@
 "use client"
 import Image from "next/image";
 
-import { serviceInfo } from "@/public/constant";
+import { serviceInfo } from "@/constant/constant";
+import Heading from "./Heading";
 
 const Services = () => {
   return (
     <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
        <div className="  mt-24">
-   
+   <Heading heading="Services"/>
   
     <div className="container mx-auto">
       <div className="flex flex-col lg:flex-row gap-10 lg:mt-16">

@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 import Features from "./components/Features";
 import Intro from "./components/Intro";
 import LeftSocialLinks from "./components/LeftSocialLink";
-import LetsTalk from "./components/LetsTalk";
+
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
@@ -34,8 +34,6 @@ export default function Home() {
     <Features />
     
   
-    <LetsTalk />
-   
     <BlogPost />
     <Projects />
    
