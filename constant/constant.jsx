@@ -286,3 +286,88 @@ export const testimonials = [
     image: "https://via.placeholder.com/100"
   }
 ];
+
+export const dataScienceInfo =[
+  {
+    id:1,
+    desc:"Data Science is the field focused on deriving valuable insights from raw data. It leverages a range of scientific techniques, algorithms, and processes to analyze large datasets. By applying these tools, data scientists can work with data from diverse sources, like financial records, multimedia, marketing data, sensor outputs, and text. A key part of Data Science involves preparing data for analysis, which includes steps like cleaning, combining, and transforming data to enable complex analyses and support data-driven decision-making."
+  },
+  {
+    id:2,
+    desc:"A Data Scientist is a skilled professional who uses math, statistics, and computer science to analyze data and uncover insights that help businesses make informed decisions. They collect data from various sources, work with both structured and unstructured data, and develop strategies to solve business challenges. Data Scientists collaborate with team members and leaders to create effective data strategies and use algorithms to find patterns and trends. They also ensure the data is clean, accurate, and consistent, transforming complex information into actionable insights that support better decision-making."
+  }
+]
+
+
+export const dsInfo =[
+  {
+    id:1,
+      dp:"/figma.png" ,
+     
+  },
+  {
+    id:2,
+      dp:"/excel.svg" ,
+     
+  },
+  {
+    id:3,
+      dp:"/flask.svg" ,
+     
+  },
+  {
+    id:4,
+      dp:"/github.png" ,
+     
+  },
+  {
+    id:5,
+      dp:"/jupiter.svg" ,
+     
+  },
+  {
+    id:6,
+      dp:"/matplotlib.webp" ,
+     
+  },
+  {
+    id:7,
+      dp:"/mongodb.svg" ,
+     
+  },
+  {
+    id:8,
+      dp:"/nextjs.png" ,
+     
+  },
+  {
+    id:9,
+      dp:"/node.png" ,
+     
+  },
+  {
+    id:10,
+      dp:"/numpy.svg" ,
+     
+  },
+  {
+    id:11,
+      dp:"/python.svg" ,
+     
+  },
+  {
+    id:12,
+      dp:"/pandas.svg" ,
+     
+  },
+  {
+    id:13,
+      dp:"/pytorch.svg" ,
+     
+  },
+  {
+    id:14,
+      dp:"/tableau.svg" ,
+     
+  },
+]
