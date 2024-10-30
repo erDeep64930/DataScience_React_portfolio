@@ -49,6 +49,17 @@ html, body{
 
 
 @layer components {
+  .lines{
+    @apply absolute inset-0 bg-black overflow-hidden 
+  }
+  .lines::before{
+    @apply contents-[''] absolute top-[50%] left-[50%]  bg-gradient-to-r from-emerald-400 to-cyan-400 translate-x-[-50%] translate-y-[-50%] duration-300 animate-rotate_line
+  }
+
+.lines::after{
+  @apply contents-[''] absolute inset-[2px]
+}
+
   .cardAnimation{
     @apply relative w-[350px] h-[190px] bg-transparent transition-all duration-300 hover:h-[450px]
   }
@@ -94,4 +105,13 @@ html, body{
   background-image: url("../public/sm.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@keyframes rotate_line{
+  0%{
+      transform: translate(-50%,-50%) rotate(0deg);
+  }
+  100%{
+      transform: translate(-50%,-50%) rotate(360deg);
+  }
 }
