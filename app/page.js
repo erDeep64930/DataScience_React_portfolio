@@ -1,4 +1,7 @@
+"use client"
 
+
+import Snowfall from "react-snowfall";
 import AnimatedSignature from "./components/AnimatedSignature";
 import BlogPost from "./components/BlogPost";
 import Contact from "./components/Contact";
@@ -19,7 +22,21 @@ import Test from "./sub-components/Test";
 export default function Home() {
   return (
    <div className="overflow-x-hidden relative w-full">
-    <Navbar />
+     <Snowfall
+        snowflakeCount={200}
+        color="grey"
+        style={{
+          position: "fixed",
+          width: "100vw",
+          height: "100vh",
+          zIndex: -9,
+        }}
+        speed={"140"}
+        radius={"12"}
+      >
+
+
+<Navbar />
    <LeftSocialLinks />
    <Test />
     <Intro />
@@ -33,12 +50,16 @@ export default function Home() {
    
     <Features />
     
+    
   
     <BlogPost />
     <Projects />
    
     <AnimatedSignature />
 
+
+      </Snowfall>
+   
    </div>
   );
 }

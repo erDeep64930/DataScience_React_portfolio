@@ -27,7 +27,7 @@ const Skills = () => {
               My Web Development journey with these Tech stack:~
             </h1>
             <p class="font-mont text-[16px] sm:text-[20px] font-[400] mt-[24px]">
-            Web development involves creating and maintaining websites, combining front-end design and back-end functionality to deliver engaging, user-friendly online experiences across various devices and platforms.
+            As a Web Developer involves working with different programming languages, frameworks, and tools to build the front-end and back-end of websites, ensuring they are functional, visually appealing, and user-friendly. have expertise in various technologies such as HTML, CSS, JavaScript and React . On the back-end, I'm familiar with server-side languages like Node.js and work with databases such as MongoDB
             </p>
             <Image src="/mernstack.png" alt="" width={180} height={70} />
           </div>

@@ -8,6 +8,10 @@ const Test = () => {
   return (
     <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4 mt-5">
 
+<h1 className="text-6xl text-center my-9 btn-shine">
+          Deepak Portfolio
+        </h1>
+
       {/* <div className="h-[200px] w-full whitespace-nowrap overflow-y-hidden overflow-x-auto gap-6">
         
           {

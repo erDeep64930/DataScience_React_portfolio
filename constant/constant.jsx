@@ -2,6 +2,16 @@
 // import img2 from "../public/images1/sm.jpg";
 // import img3 from "../public/images1/design.jpg";
 
+
+export const hambergerMenu =
+    [
+        { title: "HOME", link: "/" },
+        { title: "SERVICE", link: "/service" },
+        { title: "ABOUT", link: "/about" },
+        { title: "CONTACT", link: "/contact" },
+        { title: "PROJECT", link: "/project" },
+        { title: "SKILL", link: "/skill" },
+    ];
 export const navMenu1 = [
     {
       id: 1,

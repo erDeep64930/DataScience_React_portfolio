@@ -18,7 +18,7 @@
 html, body{
   width: 100%;
   height: 100%;
-  background-color: #161616;
+  background-color: #161616; 
   color: #c7c7c7;
 }
 
@@ -47,18 +47,43 @@ html, body{
   scrollbar-color: #0f1015 rgba(255, 255, 255, 0.1);
 }
 
+.btn-shine {
+  padding: 12px 0;
+  padding-right: 7px;
+  background: linear-gradient(to right, #292929 0, #7d7b7b 10%, #292929 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 10s infinite linear;
+  /* animation-delay: 10s; */
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  90% {
+    background-position: 1080px;
+  }
+  100% {
+    background-position: 1080px;
+  }
+}
+
 
 @layer components {
-  .lines{
+  /* .lines{
     @apply absolute inset-0 bg-black overflow-hidden 
   }
   .lines::before{
-    @apply contents-[''] absolute top-[50%] left-[50%]  bg-gradient-to-r from-emerald-400 to-cyan-400 translate-x-[-50%] translate-y-[-50%] duration-300 animate-rotate_line
+    @apply content-[''] absolute top-[50%] left-[50%]  bg-gradient-to-r from-emerald-400 to-cyan-400 translate-x-[-50%] translate-y-[-50%] duration-300 animate-rotate_line
   }
 
 .lines::after{
-  @apply contents-[''] absolute inset-[2px]
-}
+  @apply content-[''] absolute inset-[2px]
+} */
 
   .cardAnimation{
     @apply relative w-[350px] h-[190px] bg-transparent transition-all duration-300 hover:h-[450px]
