@@ -47,7 +47,7 @@ html, body{
   scrollbar-color: #0f1015 rgba(255, 255, 255, 0.1);
 }
 
-.btn-shine {
+ .btn-shine {
   padding: 12px 0;
   padding-right: 7px;
   background: linear-gradient(to right, #292929 0, #7d7b7b 10%, #292929 20%);
@@ -55,11 +55,10 @@ html, body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 10s infinite linear;
-  /* animation-delay: 10s; */
+ animation-delay: 10s; 
   animation-fill-mode: forwards;
   -webkit-text-size-adjust: none;
-}
-
+}  
 @keyframes shine {
   0% {
     background-position: 0;
@@ -70,7 +69,7 @@ html, body{
   100% {
     background-position: 1080px;
   }
-}
+} 
 
 
 @layer components {
