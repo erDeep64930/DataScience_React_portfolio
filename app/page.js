@@ -16,6 +16,7 @@ import Skills from "./components/Skills";
 import Testimonial from "./components/Testimonial";
 
 import Test from "./sub-components/Test";
+import MovingText from "./sub-components/MovingText";
 
 
 
@@ -43,6 +44,7 @@ export default function Home() {
     <Skills />
   
     <Services />
+    {/* <MovingText /> */}
    
     <Testimonial />
     <Contact />
