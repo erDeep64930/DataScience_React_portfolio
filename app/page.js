@@ -17,6 +17,7 @@ import Testimonial from "./components/Testimonial";
 
 import Test from "./sub-components/Test";
 import MovingText from "./sub-components/MovingText";
+import Practice from "./components/PracticeSection/Practice";
 
 
 
@@ -47,7 +48,7 @@ export default function Home() {
    
     <AnimatedSignature />
 
-
+<Practice />
   
    
    </div>
