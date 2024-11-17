@@ -20,7 +20,7 @@ const page = () => {
 </div>
 
 {/* skill */}
-
+{/* 
 <div className="flex flex-col md:flex-row w-[90%] mx-auto">
         {skillMenu.map((skill, index) => (
           <div
@@ -34,8 +34,10 @@ const page = () => {
           </div>
         ))}
       </div>
+      */}
       
-    </div>
+    </div> 
+    
   );
 }
 
