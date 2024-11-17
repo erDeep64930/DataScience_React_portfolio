@@ -18,6 +18,7 @@ import Testimonial from "./components/Testimonial";
 import Test from "./sub-components/Test";
 import MovingText from "./sub-components/MovingText";
 import Practice from "./components/PracticeSection/Practice";
+import Slider from "./components/Slider";
 
 
 
@@ -27,6 +28,7 @@ export default function Home() {
      
 
 <Navbar />
+<Slider />
    <LeftSocialLinks />
    <Test />
     <Intro />
