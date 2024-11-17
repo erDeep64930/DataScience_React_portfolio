@@ -19,16 +19,17 @@ setExpandedIndex(index);
   return (
     <div className='h-screen w-screen bg-black overflow-hidden '>
 
-   <div className='w-full h-full overflow-hidden items-center justify-center p-4 relative' style={{
+   <div className='w-full h-full overflow-hidden items-center justify-center p-4 relative ' style={{
     backgroundImage:`url(${sliding[expandedIndex].image})` , backgroundRepeat:"no-repeat",
     backgroundSize:"cover"
    }}>
 
-    <div className='inset-0 absolute bg-[rgba(0,0,0,0.6] backdrop-blur z-0'>
+    <div className='inset-0 absolute bg-[rgba(0,0,0,0.6] backdrop-blur z-0 '>
 
     </div>
 
-   <div className='max-w-7xl h-[50vh] flex items-center justify-center gap-3 z-10'>
+   <div className='flex items-center justify-center h-full w-full'>
+   <div className='max-w-7xl h-[30vh] flex items-center justify-center gap-3 z-10 object-cover'>
 
 {
     sliding.map((panel,index)=>{
@@ -45,6 +46,7 @@ setExpandedIndex(index);
 
 </div>
 
+   </div>
    </div>
       
     </div>
